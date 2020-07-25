@@ -488,6 +488,15 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer .button {
+  display: flex;
+  align-items: center;
+}
+
+.send-icon {
+  margin-left: 10px;
+}
+
 /* PORTFOLIO */
 
 .portfolio {
