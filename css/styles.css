@@ -14,6 +14,7 @@
   --secondary-bg-color: #f5f4fa;
   --button-bg-color: #f5f4fa;
   --footer-bg-color: #2f303a;
+  --primary-social-links-color: #afb1b8;
 }
 
 body {
@@ -348,17 +349,28 @@ img {
 }
 
 .social-links-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
+  background-color: var(--primary-bg-color);
+  border-radius: 50%;
 }
 
 .social-links-list-item:not(:last-child) {
   margin-right: 10px;
 }
 
-.social-links:hover,
-.social-links:focus {
+.social-links-list-item:hover,
+.social-links-list-item:focus {
   background-color: var(--accent-color);
+  --color4: #fff;
+}
+
+.social-links-icon {
+  width: 20px;
+  height: 20px;
 }
 
 /* Clients section */
