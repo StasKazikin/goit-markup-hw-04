@@ -119,12 +119,15 @@ img {
 }
 
 .address-nav .link {
+  display: flex;
+  align-items: center;
   color: var(--secondary-text-color);
   font-style: normal;
 }
 
-.address img {
-  display: inline-block;
+.address-nav-icon {
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 /* HERO section */
